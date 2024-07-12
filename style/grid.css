@@ -1,0 +1,14 @@
+.item{
+    border:1px solid aquamarine;
+}
+.container{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    /* grid-template-columns: repeat(2,100px); */
+    /* grid-template-columns: repeat(2,200px) 200px 150px; */
+    /* grid-template-columns: repeat(6, 1fr) 2fr; */
+    /* pura jaiga jure 6 bar hobe */
+    justify-content: center;
+    /* sob gula center e cole asbe */
+    column-gap: 20px;
+}
